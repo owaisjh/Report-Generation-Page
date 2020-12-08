@@ -1,0 +1,169 @@
+@import url(/dist/icons/css/iconmonstr-iconic-font.min.css);
+@font-face {
+  font-family: "Commissioner";
+  src: url(/dist/fonts/Commissioner-VariableFont_wght.ttf);
+  font-display: swap;
+}
+/* BODY */
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #ecce49;
+  color: #0f4c75;
+}
+
+body {
+  font-size: 105%;
+  font-family: "Commissioner", sans-serif;
+  color: #1b262c;
+  line-height: 1.8em;
+}
+
+.content-body {
+  margin: 0em auto;
+  max-width: 45em;
+  padding: 1em;
+  border: 5px solid #e08907;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #d37a07;
+  line-height: 2em;
+}
+
+/* HEADER */
+h1 {
+  display: inline;
+  color: #fab042;
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.im-star-half {
+  display: inline;
+  font-size: 3.2em;
+  position: relative;
+  bottom: -5px;
+  font-weight: 600;
+  color: #e69f06;
+}
+
+.title {
+  font-size: 1.8vh;
+  line-height: 2em;
+  text-align: center;
+}
+.title__tag-line {
+  font-weight: 580;
+  font-size: 1.6em;
+  color: teal;
+  line-height: 1em;
+  word-spacing: 0.2em;
+}
+
+img {
+  margin-top: 2em;
+  margin-bottom: 0.3em;
+  width: 43em;
+  max-width: 100%;
+}
+
+/* CONTACT-LINKS */
+a {
+  color: #0f4c75;
+  text-decoration: none;
+}
+
+.contact-links {
+  text-align: center;
+  margin: 1em 0;
+}
+.contact-links__sm {
+  background: #dd8c12;
+  color: #fff;
+  padding: 0.4em;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-radius: 10px;
+  margin: 0.2em;
+  display: inline-block;
+}
+.contact-links__mail {
+  background: #9c1604;
+  color: #fff;
+  padding: 0.35em;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 10px;
+  margin: 0.2em;
+  display: inline-block;
+}
+.contact-links__call {
+  background: #0f4c75;
+  color: #fff;
+  padding: 0.35em;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 10px;
+  margin: 0.2em;
+  display: inline-block;
+}
+.contact-links__whats {
+  background: #17af4f;
+  color: #fff;
+  padding: 0.35em;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 10px;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+.contact-links__home {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0em;
+  color: #fff;
+}
+
+.button {
+  background: #e78c03;
+  color: #fff;
+  padding: 0.4em;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-color: #fff;
+  border-radius: 10px;
+  margin: 0.2em;
+  display: inline-block;
+}
+
+label {
+  display: none;
+}
+
+/* ABOUT US */
+blockquote {
+  border-left: 10px solid #fab042;
+  margin: 1em;
+  padding: 0.7em;
+}
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #fab042;
+  color: #1b262c;
+  font-weight: 600;
+}

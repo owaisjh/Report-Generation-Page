@@ -1,0 +1,48 @@
+{
+    "name": "Star Computer",
+		"short_name": "StarComputer",
+		"version": "0.1",
+		"version_name": "child",
+		"theme_color": "#0f4c75",
+    "background_color": "#bbe1fa",
+		"display": "standalone",
+		"start_url": "/",
+		"url": "https://starcomputer.vercel.app/",
+		"description": "We repair you computer with most affordable price you can find. The computer repair service with best and easy service you can find on the market.",
+		"lang": "English",
+		"scope": "/",
+		"orientation": "portrait",
+		"default_locale": "en",
+		"content_security_policy": "default-src/logo 'self'",
+		"offline_enabled": true,
+		"omnibox": {
+			"keyword": "st"
+		},
+    "icons": [
+        {
+            "src": "/dist/img/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+				},
+				{
+					"src": "/dist/img/apple-touch-icon.png",
+					"sizes": "180x180",
+					"type": "image/png"
+				},
+				{
+					"src": "/dist/img/mstile-150x150.png",
+					"sizes": "150x150",
+					"type": "image/png"
+				},
+				{
+					"src": "/dist/img/favicon-32x32.png",
+					"sizes": "32x32",
+					"type": "image/png"
+				},
+				{
+					"src": "/dist/img/favicon-16x16.png",
+					"sizes": "16x16",
+					"type": "image/png"
+				}
+    ]
+}
