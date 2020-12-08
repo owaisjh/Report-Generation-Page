@@ -1,1 +1,1 @@
-web: npm install && nodemon app.js
+web: nodemon app.js
