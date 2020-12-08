@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 
-const port = 5000;
+
 
 const app = express();
 
@@ -24,7 +24,7 @@ app.use('/pdfMake', pdfRoute);
 
 
 
-app.listen(port, () =>{
-    console.log(`Server running at http://localhost:${port}/`);
+app.set('port', (process.env.PORT || 3000));
+app.listen(app.get('port'), function() {
+    console.log('Server started on port '+app.get('port'));
 });
-
